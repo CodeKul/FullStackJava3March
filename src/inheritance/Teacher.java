@@ -18,7 +18,7 @@ class PhysicsTeacher extends Teacher{//child class , sub class ,derived class
     }
 }
 
-class ChemistryTeacher extends Teacher{
+class ChemistryTeacher extends PhysicsTeacher{
     public static void main(String[] args) {
 
         ChemistryTeacher teacher = new ChemistryTeacher();
