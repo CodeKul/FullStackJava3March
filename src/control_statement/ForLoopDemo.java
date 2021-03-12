@@ -14,12 +14,20 @@ public class ForLoopDemo {
         arr[2] = 3;
         arr[3] = 4;
 
+/*
+
         for(int i=0;i<arr.length;i++){
             System.out.println(arr[i]);
         }
 
         for (int i:arr) {
             System.out.println(i);
+        }
+*/
+
+        System.out.println(arr.length);
+        for(int i=arr.length-1;i>=0;i--){
+            System.out.println(arr[i]);
         }
 //
 //        List<Integer> list = new ArrayList<>();
