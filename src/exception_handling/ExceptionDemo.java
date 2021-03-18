@@ -7,10 +7,9 @@ public class ExceptionDemo {
         int i = 10;
 
         try {
-//            int j = i / 0;
-//            System.out.println(j);
-//
-//            String s = null;
+            int j = i / 0;
+            System.out.println(j);
+            // String s = null;
 //            System.out.println(s.length());
 
             int[] arr = new int[3];

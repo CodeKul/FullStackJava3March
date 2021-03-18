@@ -1,0 +1,65 @@
+1)    Write a program to illustrate the concept of containment:
+        a) Create a class Author with the following:
+        i) Data Members: authorName,age,place.
+        ii) Constructor with arguments to initialize the variables.
+        iii)Use getter methods to get values.
+        b) Create class Book with the following:
+        i) Data Members:name,price,Author author(object)
+        ii) Constructor with args to initialize the variables.
+        iii)Create method showDetails() to display the details.
+
+2)    Write a program to illustrate the concept of containment:
+      a) Create a class Address with the following:
+      i) Data Members: streetNo.,city, state, country.
+      ii) Constructor with arguments to initialize the variables.
+      b) Create class Person with the following:
+      i) Data Members:PName, PAdhaarNo.,PJobName,PJobId,PJobLocation
+      ii) Constructor with args to initialize the variables.
+      iii)Create Address object as a member of Person class.
+      iv)Create method displayPersonDetails() to display the details of person.
+      c) Create a class college
+      i) Data Members: collegeName,Address collegeAddress.
+      ii) Constructor with arguments to initialize the variables
+      iii) Create method displayCollegeDetails() to display the details of college
+      d) Create a class Staff
+      i) Data Members: employeeName,Address employeeAddress.
+      ii) Constructor with arguments to initialize the variables
+      iii) Create method displayStaffDetails() to display the details of staff
+
+3)  Why java does not support multiple inheritance?
+
+
+4) 1. A VotingApp needs to develop an online application for two types of users, Adults and children.
+   Both of these users should be able to register an account. Any user who is less than 12 years
+   of age will be registered as a child and they cannot go for voting, whereas an adult can but only
+   once.
+   Note: In future, more users/roles might be added to the App where similar rules will
+   been forced. Develop Interfaces and classes for the categories mentioned above.
+   a. Create an interface VotingApp with the following methods declared
+   Method Name:
+   registerUser
+   requestVotingNumber
+   The methods in the Kids class should perform the following logic.
+   i.
+   registerUser : if age < 12, a message displaying “You have successfully registered
+   under Kids” should be displayed in the console.
+   If(age>12), a message displaying, “You have not successfully registered” should be
+   displayed in the console.
+   e. requestVotingNumber: if voting Type is “Kids”, a message displaying “Sorry cannot go for
+   voting because Age must be greater than 12 to vote” should be displayed in the console
+   The methods in the Adult class should perform the following logic.
+   i.
+   registerUser : if age > 12, a message displaying“ You have successfully
+   registered under an Adult” should be displayed in the console.
+   If age<12, a message displaying, “You have not successfully registered under an Adult” should
+   be displayed in the console.
+   ii.
+   requestVotingNumber: if voting Type is “Adult”, a message displaying “Your
+   voting Id will be generated within a day “should be displayed in the console.
+   else, a message displaying, “Oops, you are not” should be displayed in the console.
+   f.
+   Create a class “VotingAppDemo.java” with a main method which performs
+   the functions
+
+5) WRITE A PROGRAM to create Package arithmetic having classes Addition, Subtraction, Division
+   ,Multiplication with appropriate methods .Use this Classes outside the package.

@@ -3,7 +3,7 @@ Throwable - >
                   -IOException
                     -FileNotFoundException
                   -SQLException
-                  -ClassNoFoundException
+                  -ClassNotFoundException
                   -RunTimeException->
                                     - NullPointerException
                                     - ArithmeticException
