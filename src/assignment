@@ -4,7 +4,7 @@
         ii) Constructor with arguments to initialize the variables.
         iii)Use getter methods to get values.
         b) Create class Book with the following:
-        i) Data Members:name,price,Author author(object)
+        i) Data Members:name,price,Author
         ii) Constructor with args to initialize the variables.
         iii)Create method showDetails() to display the details.
 
