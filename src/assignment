@@ -63,3 +63,16 @@
 
 5) WRITE A PROGRAM to create Package arithmetic having classes Addition, Subtraction, Division
    ,Multiplication with appropriate methods .Use this Classes outside the package.
+
+
+   -----------------------------------------------------------------------------------
+
+   File Handling
+
+   1 . create a file Object eg. File file = new File("nameOfFile")
+        1. check whether file is exist or not (use exists() method of file)
+        2. check path and absolute path(print the path)
+        3. check  whether the file is writable (use canWrite())
+        4. check  whether the file is readable (use canRead())
+        5. print length of the file in bytes(use length())
+

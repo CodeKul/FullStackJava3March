@@ -11,10 +11,9 @@ public class FileWriterReader {
 
         FileWriter fileWriter = null;
         try {
-            fileWriter = new FileWriter("FHDemo2.txt");
-            fileWriter.write("Today is Wednesday");
+            fileWriter = new FileWriter("FHDemo2.pdf");
+            fileWriter.write("Today45 is4 Wednesday12 ");
             System.out.println("File write successfully...");
-            fileWriter.close();
 
         } catch (IOException ioException) {
             ioException.printStackTrace();
@@ -28,11 +27,13 @@ public class FileWriterReader {
 
         FileReader fileReader = null;
         try {
-            fileReader = new FileReader("FHDemo2.txt");
+            fileReader = new FileReader("FHDemo2.pdf");
             int i = fileReader.read();
 
             while (i > 0) {
-                System.out.print((char) i);
+                if (Character.isDigit((char) i)) {
+                    System.out.print((char) i);
+                }
                 i = fileReader.read();
             }
 
