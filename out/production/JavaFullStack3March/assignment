@@ -73,5 +73,7 @@
         1. check whether file is exist or not (use exists() method of file)
         2. check path and absolute path(print the path)
         3. check  whether the file is writable (use canWrite())
-        3. check  whether the file is readable (use canRead())
+        4. check  whether the file is readable (use canRead())
         5. print length of the file in bytes(use length())
+
+   2 . create a pdf file and write a data into a file

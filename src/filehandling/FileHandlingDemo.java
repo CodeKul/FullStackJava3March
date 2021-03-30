@@ -7,7 +7,7 @@ public class FileHandlingDemo {
     public static void main(String[] args) {
 
         try {
-            File file = new File("/home/vaibhav/workspace/JavaFullStack3March/src/filehandling/FHDemo1.txt");
+            File file = new File("/home/vaibhav/workspace/JavaFullStack3March/src/filehandling/FHDemo2.pdf");
             FileOutputStream fileOutputStream =
                     new FileOutputStream(file);
             String str = "Today is Wednesday and time is 18:13";
@@ -25,7 +25,7 @@ public class FileHandlingDemo {
 
         try {
             FileInputStream fileInputStream =
-                    new FileInputStream("/home/vaibhav/workspace/JavaFullStack3March/src/filehandling/FHDemo1.txt");
+                    new FileInputStream("/home/vaibhav/workspace/JavaFullStack3March/src/filehandling/FHDemo2.pdf");
             int i = fileInputStream.read();
 
             while (i>0){

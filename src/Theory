@@ -15,3 +15,14 @@ Throwable - >
 2. Error -
    1.StackOverFlowError
    2.OutOfMemoryError
+
+
+                                        Iterable(I)
+
+                                        Collection(I)
+
+   List(I)                                Queue(I)                       Set(I)
+
+   1. ArrayList(C)                        PriorityQueue(C)               - HashSet
+   2. LinkedList(C)                                                      - LinkedHashSet
+   3. Vector
