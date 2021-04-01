@@ -18,12 +18,14 @@ public class CollectionDemo {
         list.add(30);
         list.add(40);
 
+
+        list.remove(2);
         Collections.sort(list);
-//        Iterator<Integer> iterator = list.iterator();
-//
-//        while (iterator.hasNext()){
-//            System.out.println(iterator.next());
-//        }
+        Iterator<Integer> iterator = list.iterator();
+
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
 
 //        ListIterator<Integer> listIterator = list.listIterator(2);
 //
@@ -31,19 +33,19 @@ public class CollectionDemo {
 //            System.out.println(listIterator.next());
 //        }
 
-        Iterator<Integer> iterator;
-
-        for(iterator= list.iterator(); iterator.hasNext();){
-            System.out.println(iterator.next());
-        }
-
-        for(int i=0;i< list.size();i++){
-            System.out.println(list.get(i));
-        }
-
-        list.forEach(s->{
-            System.out.println(s);
-        });
+//        Iterator<Integer> iterator;
+//
+//        for(iterator= list.iterator(); iterator.hasNext();){
+//            System.out.println(iterator.next());
+//        }
+//
+//        for(int i=0;i< list.size();i++){
+//            System.out.println(list.get(i));
+//        }
+//
+//        list.forEach(s->{
+//            System.out.println(s);
+//        });
 
 
         List<Integer> list1 = new ArrayList<>();
