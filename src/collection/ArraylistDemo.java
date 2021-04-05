@@ -16,17 +16,23 @@ public class ArraylistDemo {
         //Arraylist uses dynamic array to store the element
 
         List<Integer> list = new ArrayList<>();//default size is 10 -> it grow by 50 %
-//        list.add(1);
-//        list.add(2);
-//        list.add(3);
-//        list.add(4);
+        list.add(112);
+        list.add(22);
+        list.add(3343);
+        list.add(43);
 
 
+        Collections.sort(list);
+
+        System.out.println(list);
+
+
+        System.out.println();
 //        list.remove(1);
-        System.out.println(list.size());
-        System.out.println(list.contains(Integer.valueOf(3)));
-        System.out.println(list.isEmpty());
-        System.out.println(list.get(1));
+//        System.out.println(list.size());
+//        System.out.println(list.contains(Integer.valueOf(3)));
+//        System.out.println(list.isEmpty());
+//        System.out.println(list.get(1));
 
 //        list.forEach(s->{
 //            System.out.println(s);
