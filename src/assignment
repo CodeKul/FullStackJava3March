@@ -77,3 +77,20 @@
         5. print length of the file in bytes(use length())
 
    2 . create a pdf file and write a data into a file
+
+
+String and Collection =>
+
+   1 . get input from user of string and reverse the string
+
+   2. Write a program to remove all the duplicate characters from a given input String,
+   like, if the given String is "Java" then the output should be "Java".
+   The second or further occurrence of duplicates should be removed.
+
+   3. How to check if two given String is the anagram of each other?
+
+   4. How do you check if a given String is Palindrome or not?
+
+   5. Write a program to count a number of words in a given String.
+    The words are separated by the following characters: space (‘ ‘) or newline (‘\n’) or tab (‘\t’) or a combination of these.
+    For example, if input "Java is great" your program should print 3.
