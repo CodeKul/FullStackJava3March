@@ -10,6 +10,7 @@ public class MultiThreadingDemo {
         hello.start();
 
 
+
     }
 }
 class Hii implements Runnable{
