@@ -4,7 +4,7 @@ public class RemoveDuplicate {
 
     public static void main(String[] args) {
 
-        StringBuffer s = new StringBuffer("JavaCode");
+        StringBuffer s = new StringBuffer("");
 
         for(int i=0;i<s.length();i++){
 
@@ -14,6 +14,7 @@ public class RemoveDuplicate {
                     s.deleteCharAt(j);
                 }
             }
+
         }
 
         System.out.println(s);
