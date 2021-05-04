@@ -2,9 +2,9 @@ package multithreading;
 
 public class SynchronizationDemo {
 
-    static int num;
+     static int num;
 
-    public static synchronized void count() {
+    public  static synchronized void count() {
         num++;
     }
 
@@ -59,7 +59,7 @@ public class SynchronizationDemo {
         t3.join();
         t4.join();
 
-        System.out.println(num);
+        System.out.println(SynchronizationDemo.num);
     }
 
 
