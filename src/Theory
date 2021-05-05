@@ -46,3 +46,17 @@ Throwable - >
        10) select * from tblName where clmName = yourValue
        11) update tblName set clmName = value where clmName = value (If you don't use where clause then all row will be affected)
        12) delete from tableName where clmName = value
+
+
+DDL => Data Defination language
+create
+alter
+drop
+
+DML => Data Manipulation Language
+Inert
+update
+delete
+
+DQL => Data Query Language
+Select
