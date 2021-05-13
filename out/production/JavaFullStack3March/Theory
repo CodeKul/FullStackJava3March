@@ -60,3 +60,14 @@ delete
 
 DQL => Data Query Language
 Select
+
+
+Java 8 =>
+1. Lambada Expression
+2. default and static keyword in interface
+3. Method references
+4. Stream api
+5. Optional keyword
+6. Local date , Local time ,LocalDateTime
+7. StringJoiner
+8. Functional Interface
