@@ -37,7 +37,7 @@ public class DefaultAndStaticDemo implements  Myinterface3,MyInterface4{
 interface Myinterface3{
 
     String msg();//declare method
-    default String display(){
+    default String display(){ //define method
         return "Hello in display()";
     };
 

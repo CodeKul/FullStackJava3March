@@ -73,6 +73,11 @@ Java 8 =>
 8. Functional Interface
 
 
+A stored procedure is a set of precompiled SQL statements that are used to perform a special task.
 
-prathmeshdeo13@gmail.com
-tatemayu009@gmail.com
+A stored procedure is mainly used to perform certain tasks on a database. For example
+
+1.Get database result sets from some business logic on data.
+2.Execute multiple database operations in a single call.
+3.Used to migrate data from one table to another table.
+4.Can be called for other programming languages, like Java.
