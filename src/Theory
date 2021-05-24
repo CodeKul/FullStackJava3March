@@ -88,3 +88,5 @@ create procedure procnm()
 BEGIN
 //your statement
 END
+
+show procedure status where dnName='';

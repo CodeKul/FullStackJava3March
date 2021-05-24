@@ -81,3 +81,12 @@ A stored procedure is mainly used to perform certain tasks on a database. For ex
 2.Execute multiple database operations in a single call.
 3.Used to migrate data from one table to another table.
 4.Can be called for other programming languages, like Java.
+
+syntax for creating procedure
+
+create procedure procnm()
+BEGIN
+//your statement
+END
+
+show procedure status where dnName='';

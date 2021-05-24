@@ -18,7 +18,7 @@ public class SortedDemo {
 
         list1.stream()
                 .sorted(
-                        Comparator.comparing(Employee::getSalary)
+                        Comparator.comparingDouble(Employee::getSalary)
                                 .reversed())
                 .forEach(System.out::println);
     }
