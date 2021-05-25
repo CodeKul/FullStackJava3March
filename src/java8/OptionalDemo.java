@@ -4,7 +4,7 @@ import java.util.Optional;
 
 public class OptionalDemo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Customer customer = new Customer(1,"Ravi",null);
 //        System.out.println(customer.getEmail());
 ////        System.out.println(customer.getEmail().toUpperCase());
@@ -30,6 +30,13 @@ public class OptionalDemo {
 
         Optional<String> optional4 = Optional.ofNullable(customer.getEmail());
         System.out.println(optional4.orElse("Default email"));
+
+        Optional<String> optional5 = Optional.ofNullable(customer.getEmail());
+        System.out.println(optional5.orElseGet(()->"dashdksa"));
+
+        Optional<String> optional6 = Optional.ofNullable(customer.getEmail());
+        System.out.println(optional6.orElseThrow(()->new Exception("exc")));
+
 
     }
 }
